@@ -9,7 +9,7 @@ myInput.addEventListener('input', function(e){
             document.getElementById("demo").innerHTML = 'The service provider is MTN'
             console.log('The service provider is MTN')
         } else if (text.includes('805') || text.includes('807') || text.includes('705') || text.includes('815') || text.includes('811') || text.includes('905') ) {
-            let gloImage = `img src="glo.png" id="glo-logo"></img>`
+            let gloImage = `<img src="glo.png" id="glo-logo" id="glo-logo"></img>`
             container.innerHTML = gloImage
             document.getElementById("demo").innerHTML = 'The service provider is GLO'
             console.log('The service provider is GLO')
